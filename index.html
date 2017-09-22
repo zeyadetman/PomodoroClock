@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Jura" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1 class="center-block text-center">Pomodoro FCC</h1>
+
+        <div class="setter">
+            <div class="breakr center-block text-center">
+                <h5>Break Length</h5>
+                <span onclick="counter('bm')" class="breakmin">-</span>
+                <span class="breakcounter">5</span>
+                <span onclick="counter('bp')" class="breakplus">+</span>
+            </div>
+            <div class="sessionr center-block text-center">
+                <h5>Session Length</h5>
+                <span onclick="counter('sm')" class="sessionmin">-</span>
+                <span class="sessioncounter">25</span>
+                <span onclick="counter('sp')" class="sessionplus">+</span>
+            </div>
+
+
+        </div>
+        <div class="sesbody center-block text-center" onclick="start()">
+            <h5 class="center-block text-center">Session</h5>
+            <button class="resetbtn center-block text-center" onclick="resetter()">Reset</button>
+            <span class="sessioncounterr">25</span>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="man.js"></script>
+</body>
+
+</html>
