@@ -1,0 +1,110 @@
+h1 {
+    font-family: 'Alfa Slab One', cursive !important;
+}
+
+body {
+    font-family: 'Jura', sans-serif;
+    background: #EC9261;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#EC9261 40%, #efef72);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#EC9261 40%, #efef72);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#EC9261 40%, #efef72);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#EC9261 40%, #efef72);
+    /* Standard syntax */
+}
+
+.setter {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+h5 {
+    font-size: 2em;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+span {
+    font-size: 1em;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.sesbody {
+    border-radius: 50%;
+    border: 2px solid #EDBA68;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 3.6em 0px;
+}
+
+.sesbody:hover {
+    cursor: pointer;
+}
+
+.resetbtn {
+    border: none;
+    padding: 25px 0px;
+    width: 100px;
+    background-color: #edc36a;
+    font-size: 1.3em;
+    border-radius: 5px;
+    display: none;
+}
+
+.resetbtn:hover {
+    background-color: #edba68;
+    color: white;
+    border-radius: 5px;
+}
+
+.breakcounter,
+.sessioncounter {
+    box-shadow: 0px 0px 2px 1px #efef72;
+    padding: 4px;
+    display: inline-block;
+    width: 27px !important;
+    height: 27px !important;
+}
+
+.sessionplus,
+.sessionmin,
+.breakplus,
+.breakmin {
+    color: white;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #FBB549;
+    width: 30px !important;
+    height: 30px !important;
+    padding: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-family: 'Jura', sans-serif;
+}
+
+.sessionplus:hover,
+.sessionmin:hover,
+.breakplus:hover,
+.breakmin:hover {
+    cursor: pointer;
+    opacity: .8;
+    box-shadow: 0px 0px 2px 1px #FBB549;
+}
+
+.sessioncounterr {
+    font-size: 6em;
+}
+
+@media screen and (max-width:321px) {
+    .sesbody {
+        left: -4;
+    }
+}
